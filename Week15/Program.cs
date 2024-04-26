@@ -17,7 +17,7 @@ foreach(Movie movie in myMovies)
 
 static string[] GetDataFromMyFile()
 {
-    string filePath = @"D:\skoola sittanen\progremine\Week15\Andmed\movies.txt";
+    string filePath = @"/";
     return File.ReadAllLines(filePath);
 }
 
